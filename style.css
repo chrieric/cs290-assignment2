@@ -47,6 +47,7 @@ label{
 }
 
 .outer-content{
+	margin-top:20px;
 	padding-top:20px;
 	padding-bottom:20px;
 	background-color:lightpink;
@@ -62,6 +63,5 @@ label{
 	text-align:center;
 	top:25%;
 	left:12.5%;
-	float:center;
 
 }
