@@ -8,12 +8,10 @@ table,th,td{
 th{
 	height:50px;
 	text-align:center;
-	vertical-align:center;
 }
 td{
 	height:50px;
 	text-align:center;
-	vertical-align:center;
 }
 
 table tbody th:first-child{
