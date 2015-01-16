@@ -10,3 +10,8 @@ th{
 	text-align:center;
 	vertical-align:center;
 }
+
+p{
+	font-weight:normal;
+	font-style:italic;
+}
