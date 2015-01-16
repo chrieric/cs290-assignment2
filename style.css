@@ -10,8 +10,18 @@ th{
 	text-align:center;
 	vertical-align:center;
 }
+td{
+	height:50px;
+	text-align:center;
+	vertical-align:center;
+}
 
-p{
+table tbody th:first-child{
+
 	font-weight:normal;
 	font-style:italic;
+}
+
+table tbody tr td:nth-child(2){
+	color:red;
 }
