@@ -84,30 +84,25 @@
 		Each form also contains a radio button to allow the user to select between skittles, mentos and snickers
 		In addition there is a submit button that allows the user to submit the form-->
 		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
-			<div>
-				<label for="name">text_input:</label>
-				<input type="text" id="name"/>
-			</div>
+			<fieldset>
+				<label>text_input:<input type="text"/></label>
+			</fieldset>
 			
-			<div>
-				<label for="name">numerical_input:</label>
-				<input type="number" id="number"/>
-			</div>
+			<fieldset>
+				<label>numerical_input:<input type="number"/></label>
+			</fieldset>
 			
-			<div>
-				<label for="name">password:</label>
-				<input type="password" id="pass"/>
-			</div>
+			<fieldset>
+				<label>password:<input type="password"/></label>
+			</fieldset>
 			
 			<fieldset>
 				<legend>candy</legend>
-				<p><label for="snickers"><input type="radio" name="candy" id="snickers" value="snickers">Snickers</label></p>
-				<p><label for="skittles"><input type="radio" name="candy" id="skittles" value="skittles">Skittles</label></p>
-				<p><label for="mentos"><input type="radio" name="candy" id="mentos" value="mentos">Mentos</label></p>
+				<p><label><input type="radio" name="candy" value="snickers">Snickers</label></p>
+				<p><label><input type="radio" name="candy" value="skittles">Skittles</label></p>
+				<p><label><input type="radio" name="candy" value="mentos">Mentos</label></p>
 				
-				<div class = "button">
-					<button type="submit">Submit</button>
-				</div>
+				<button type="submit">Submit</button>
 				
 			</fieldset>
 			
@@ -117,34 +112,29 @@
 		<!--Second Form-->
 		
 		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
-			<div>
-				<label for="name">text_input:</label>
-				<input type="text" id="name2"/>
-			</div>
+			<fieldset>
+				<label>text_input:<input type="text"/></label>
+			</fieldset>
 			
-			<div>
-				<label for="name">numerical_input:</label>
-				<input type="number" id="number2"/>
-			</div>
+			<fieldset>
+				<label>numerical_input:<input type="number"/></label>
+			</fieldset>
 			
-			<div>
-				<label for="name">password:</label>
-				<input type="password" id="pass2"/>
-			</div>
+			<fieldset>
+				<label>password:<input type="password"/></label>
+			</fieldset>
 			
 			<fieldset>
 				<legend>candy</legend>
-				<p><label for="snickers2"><input type="radio" name="candy" id="snickers2" value="snickers">Snickers</label></p>
-				<p><label for="skittles2"><input type="radio" name="candy" id="skittles2" value="skittles">Skittles</label></p>
-				<p><label for="mentos2"><input type="radio" name="candy" id="mentos2" value="mentos">Mentos</label></p>
+				<p><label><input type="radio" name="candy" value="snickers">Snickers</label></p>
+				<p><label><input type="radio" name="candy" value="skittles">Skittles</label></p>
+				<p><label><input type="radio" name="candy" value="mentos">Mentos</label></p>
 				
-				<div class = "button">
-					<button type="submit">Submit</button>
-				</div>
+				<button type="submit">Submit</button>
 				
 			</fieldset>
 			
-
+			
 		</form>
 		
 		<!--Two paragraphs with an image aligned left which the text wraps around-->
