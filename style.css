@@ -40,6 +40,7 @@ dt:hover +dd{
 	background-color:purple;
 }
 
+
 label{
 	display:inline-block;
 	width:90px;
@@ -52,7 +53,7 @@ label{
 	padding-bottom:20px;
 	background-color:lightpink;
 	width:75%;
-	float:left;
+	/*float:left;*/
 	
 }
 
@@ -65,6 +66,8 @@ label{
 	left:12.5%;
 
 }
+
+
 
 img{
 	width:100px;
