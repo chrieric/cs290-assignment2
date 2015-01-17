@@ -70,6 +70,8 @@ label{
 
 
 img{
+	background-image:url("http://wiki.eveuniversity.org/w/skins/common/images/logo.png");
+	background-size:100px 125px;
 	width:100px;
 	height:125px;
 	float:left;
