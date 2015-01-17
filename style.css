@@ -65,3 +65,9 @@ label{
 	left:12.5%;
 
 }
+
+img{
+	width:100px;
+	height:125px;
+	float:left;
+}
